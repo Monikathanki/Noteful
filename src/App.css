@@ -1,0 +1,164 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  flex: 1;
+  border-right: 1px solid blue;
+}
+
+section {
+  flex: 4;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+.Note_name {
+  text-align: left;
+  width: 25%;
+  padding: 8px 0 8px 8px;
+  margin-left: 10px;
+  border: 1px grey solid;
+  display: flex;
+}
+
+.Modified_date {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.Note_content {
+  text-align: left;
+  margin-left: 10px;
+  width: 35%;
+  border: 1px grey solid;
+  padding: 10px;
+}
+
+.Notes ul li {
+  border: 1px grey solid;
+  width: 20%;
+  text-align: center;
+  padding: 2%;
+  margin: 2.5px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.Note_button_position {
+  display: flex;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.Notes {
+  display: flex;
+  flex-direction: column;
+}
+
+.BackButton {
+  border-radius: 30px;
+  border: solid 1px black;
+  background-color: #cacaca;
+  height: 45px;
+  width: 45px;
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+  color: #2a9d8f;
+}
+
+.Notes_delete {
+  float: right;
+  border: none;
+  background: none;
+  color: #e63946;
+}
+
+.Note_delete {
+  padding: 10px;
+  height: 5px;
+  margin-left: 30%;
+  margin-top: 10%;
+  border: none;
+  background: none;
+  font-size: 15px;
+  color: #e63946;
+}
+
+.Note_form {
+  display: flex;
+  flex-direction: column;
+  border: 1px grey solid;
+  border-radius: 20px;
+  margin-left: 20px;
+  padding: 14px;
+  width: 25%;
+}
+
+.FolderForm {
+  border: 1px grey solid;
+  border-radius: 20px;
+  padding: 10px;
+  width: 25%;
+  margin-left: 20px;
+}
+
+.FolderForm_field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Folder_name {
+  width: 75%;
+}
+
+.content {
+  padding: 25px;
+}
+
+.AddFolder_button,
+.AddNote_button {
+  border-radius: 30px;
+  height: 55px;
+  width: 55px;
+  cursor: pointer;
+}
+
+.Folders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Folders ul li {
+  border: grey solid 1px;
+  padding: 10px;
+  margin: 2.5px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.edit-form {
+  border: grey solid 2px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  border-radius: 20px;
+  margin-left: 20px;
+  padding: 14px;
+}
